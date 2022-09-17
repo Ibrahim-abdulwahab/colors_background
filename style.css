@@ -20,6 +20,7 @@ header{
     height: 8%;
     background-color: green;
     display: flex;
+    justify-content: space-around;
 }
 .feature{
     width: 100%;
@@ -29,8 +30,13 @@ header{
 .title{
     height: 100%;
     width:150px;
-    background-color:aqua
+    background-color:aqua;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 2em;
 }
+
 .options{
     height: 100%;
     width:150px;
