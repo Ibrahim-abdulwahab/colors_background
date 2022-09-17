@@ -28,6 +28,42 @@ header{
     justify-content: center; 
     align-items: center;
 }
+.red{
+    width: 100%;
+    height:92%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.blue{
+    width: 100%;
+    height:92%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.green{
+    width: 100%;
+    height:92%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.yellow{
+    width: 100%;
+    height:92%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
 .title{
     height: 100%;
     width:150px;
@@ -76,7 +112,7 @@ header{
     border-radius: 12px;
     font-weight: 700;
 }
-.feature button{
+ button{
     font-size: 3em;
     padding: 8px 8px;
     background-color: white;
@@ -85,7 +121,7 @@ header{
     border-radius: 12px;
     font-weight: 700;
 }
-.feature button:hover{
+ button:hover{
     background-color: black;
     color: white;
     border-style: solid;
