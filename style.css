@@ -87,9 +87,15 @@ header{
     justify-content: center; 
     align-items: center;
     font-size: 2em;
+    
 }
-.simple p:hover{
+.simple a{
+    text-decoration: none;
+}
+.simple a:hover{
    color: aqua;
+   cursor: pointer;
+   
 }
 .hex{
     height: 100%;
@@ -99,8 +105,12 @@ header{
     align-items: center;
     font-size: 2em;
 }
-.hex p:hover{
+.hex a{
+    text-decoration: none;
+}
+.hex a:hover{
     color: aqua;
+    cursor: pointer;
 }
 .name_color{
     background-color: black;
@@ -126,4 +136,5 @@ header{
     color: white;
     border-style: solid;
     border-color: white;
+    cursor: pointer;
 }
