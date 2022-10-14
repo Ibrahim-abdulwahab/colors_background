@@ -7,7 +7,7 @@ window.addEventListener('load', function(){
 
     const changeColor=()=>{
         let color=colors[Math.floor(Math.random()*colors.length)];
-        feature.className=color;
+        feature.className="feature " + color;
         name.innerHTML=`Background Color : ${color}`
     }
 
