@@ -17,7 +17,7 @@ window.addEventListener('load', function(){
         if (color=="#9D86FE"){
             actualcolor="c"
         }
-        feature.className=actualcolor;
+        feature.className="feature " + actualcolor;
         name.innerHTML=`Background Color : ${color}`
         console.log(actualcolor)
     }
