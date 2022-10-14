@@ -30,15 +30,6 @@ header{
     justify-content: center; 
     align-items: center;
 }
-.a{
-    background-color: #9287AA;
-}
-.b{
-    background-color: #129E96;
-}
-.c{
-    background-color: #9D86FE;
-}
 .title{
     height: 100%;
     width:150px;
